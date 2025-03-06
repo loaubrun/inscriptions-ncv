@@ -27,5 +27,5 @@ jobs:
             cd ${{ secrets.APP_PATH }}
             sudo git pull origin
             npm install
-            npm build
+            npm run build
             npm start
