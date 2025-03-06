@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.IP }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          key: ${{ secrets.SSH_PRIVATE }}
+
           script: |
             cd ${{ secrets.APP_PATH }}
             sudo git pull origin
