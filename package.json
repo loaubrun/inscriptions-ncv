@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "rm -rf ../html/* && cp -r dist/* ../html/",
+    "start": "rsync -a --del ./ ../html/inscription/ && cp -r dist/* ../html/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
