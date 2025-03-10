@@ -3,20 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function Hello(props){
-  return(
-    <div>
-      <p>Hello {props.name}</p>
-    </div>
-  )
-}
 
 function App() {
   return (
     <div>
-      <h1>Greetings</h1>
-      <Hello name="George" />
-      <Hello name="Daisy" />
+      <h1>Site d'inscription</h1>
+      <footer>
+        <a href="/admin">Accès administrateur</a>
+      </footer>
     </div>
   )
 }

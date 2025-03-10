@@ -9,5 +9,5 @@ export default defineConfig({
     port: 3001,
   },
   // Base name of your app
-  base: "/inscription", // Replace this with the subdirectory path if needed
+  base: "/", // Replace this with the subdirectory path if needed
 })
